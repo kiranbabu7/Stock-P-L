@@ -5,6 +5,7 @@ const CalculateBtn = document.querySelector("#calculate-btn");
 const output = document.querySelector("#output");
 
 function CalculateProfitOrLost() {
+  console.log(typeof ipInput.value);
   const initialPrice = Number(ipInput.value).toFixed(2);
   const currentPrice = Number(cpInput.value).toFixed(2);
   const quantity = Number(quantityInput.value);
